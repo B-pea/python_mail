@@ -5,8 +5,8 @@ import smtplib
 from email.mime.text import MIMEText
 mailto_list=['378365932@qq.com']        #收件人(列表)
 mail_host="smtp.163.com"                #使用的邮箱的smtp服务器地址
-mail_user="m17801024212"                #用户名
-mail_pass="mlz20140500"                 #密码
+mail_user=""                #用户名
+mail_pass=""                 #密码
 mail_postfix="163.com"                  #邮箱的后缀
 def send_mail(to_list,sub,content):
     me="hello"+"<"+mail_user+"@"+mail_postfix+">"
